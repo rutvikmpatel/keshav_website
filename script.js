@@ -229,6 +229,7 @@ function revealOnScroll() {
 }
 
 window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll);
 
 // Add reveal class to elements that should animate on scroll
 document.addEventListener('DOMContentLoaded', () => {
