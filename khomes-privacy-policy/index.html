@@ -91,53 +91,51 @@
             text-align: left;
         }
         
-        .terms-section {
-            margin-bottom: 2.5rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid var(--border-color);
+        #markdown-content h1 {
+            color: var(--text-primary);
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
         }
         
-        .terms-section:last-of-type {
-            border-bottom: none;
-            margin-bottom: 0;
-        }
-        
-        .terms-section h3 {
+        #markdown-content h2 {
             color: var(--text-primary);
             font-size: 1.5rem;
             font-weight: 600;
-            margin-bottom: 1rem;
+            margin: 2.5rem 0 1rem 0;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
         
-        .terms-section h4 {
+        #markdown-content h3 {
             color: var(--text-primary);
             font-size: 1.2rem;
             font-weight: 600;
             margin: 1.5rem 0 0.75rem 0;
         }
         
-        .terms-section p {
+        #markdown-content p {
             color: var(--text-secondary);
             line-height: 1.7;
             margin-bottom: 1rem;
         }
         
-        .terms-section ul, .terms-section ol {
+        #markdown-content ul, #markdown-content ol {
             margin: 1rem 0;
             padding-left: 1.5rem;
         }
         
-        .terms-section li {
+        #markdown-content li {
             color: var(--text-secondary);
             line-height: 1.6;
             margin-bottom: 0.5rem;
         }
         
-        .terms-section strong {
+        #markdown-content strong {
             color: var(--text-primary);
             font-weight: 600;
         }
@@ -210,89 +208,10 @@
                 <p class="terms-subtitle">Visitor Management App - Privacy Policy</p>
             </div>
             
-            <div class="terms-content">
-                <div class="terms-section">
-                    <p>Welcome to K Homes. We are committed to protecting your privacy and ensuring you have a positive experience on our app. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.</p>
-                </div>
-
-                <div class="terms-section">
-                    <h3>1. Information We Collect</h3>
-                    <p>We may collect information about you in a variety of ways. The information we may collect via the app includes:</p>
-                    
-                    <h4>A. Personal Data</h4>
-                    <p>Demographic and other personally identifiable information (such as your name, email address, and phone number) that you voluntarily give to us when you register with the app, or when you participate in various activities related to the app, such as community management and visitor registration.</p>
-
-                    <h4>B. Device and Permission-Based Information</h4>
-                    <p>To provide certain features, our app requests access to specific permissions on your device:</p>
-                    <ul>
-                        <li><strong>Location Data (Optional):</strong> We may request access or permission to track location-based information from your mobile device to provide you with a list of nearby communities to join or visit. This permission is completely optional, and the app will continue to function smoothly if you decline it. (Permissions: ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, ACCESS_BACKGROUND_LOCATION).</li>
-                        <li><strong>Camera and Photos:</strong> We request access to your device's camera and photo library to allow you to upload community images, register visitor images, and manage profiles.</li>
-                        <li><strong>Push Notifications:</strong> We may request to send you push notifications regarding your account, visitor arrivals, community updates, or app features.</li>
-                    </ul>
-
-                    <h4>C. Derivative Data</h4>
-                    <p>Information our servers automatically collect when you access the app, such as your native actions that are integral to the app, including device information, operating system, and app interactions.</p>
-                </div>
-
-                <div class="terms-section">
-                    <h3>2. Use of Your Information</h3>
-                    <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the app to:</p>
-                    <ul>
-                        <li>Facilitate account creation and logon process.</li>
-                        <li>Manage user accounts, roles (e.g., Guard, Community Admin), and security.</li>
-                        <li>Process visitor entries, approvals, and maintain visitor history logs.</li>
-                        <li>Notify you of updates, security alerts, and visitor arrivals.</li>
-                        <li>Enhance app functionality and user experience.</li>
-                    </ul>
-                </div>
-
-                <div class="terms-section">
-                    <h3>3. Disclosure of Your Information</h3>
-                    <p>We do not sell your personal data to any third parties. We do not use third-party analytics or crash reporting tools. We may share information we have collected about you in certain limited situations:</p>
-                    <ul>
-                        <li><strong>Third-Party Service Providers:</strong> We use Firebase Cloud Messaging strictly for the purpose of sending push notifications. We collect your device's FCM token and store it securely on our servers to enable this feature.</li>
-                        <li><strong>External Mapping Applications:</strong> The app may use your coordinates to open external mapping applications (like Google Maps) to display community locations.</li>
-                        <li><strong>By Law or to Protect Rights:</strong> If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others.</li>
-                    </ul>
-                </div>
-
-                <div class="terms-section">
-                    <h3>4. Data Retention</h3>
-                    <p>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy policy. Specifically, visitor logs and visitor images are guaranteed to be available within the app for a period of 6 months. After 6 months, this data is either permanently deleted from our active systems or securely archived solely for future audit and compliance purposes.</p>
-                </div>
-
-                <div class="terms-section">
-                    <h3>5. User Data Rights and Deletion</h3>
-                    <p>You have the right to request the deletion of your account and associated personal data. You can permanently delete your account directly within the app by navigating to Settings > Account and selecting the delete account option. Alternatively, you can contact us to request the deletion of your information.</p>
-                </div>
-
-                <div class="terms-section">
-                    <h3>6. Security of Your Information</h3>
-                    <p>We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.</p>
-                </div>
-
-                <div class="terms-section">
-                    <h3>7. Children's Privacy</h3>
-                    <p>Our services are not intended for use by children. While the app functions simply as a digital register for visitor management and does not contain age-inappropriate features, we require users to be at least 18 years of age to use the app. We do not knowingly collect personally identifiable information from anyone under the age of 18. If we become aware that we have collected personal data from anyone under the age of 18, we will take steps to delete that information from our servers.</p>
-                </div>
-
-                <div class="terms-section">
-                    <h3>8. Changes to This Privacy Policy</h3>
-                    <p>We may update this Privacy Policy from time to time. The updated version will be indicated by an updated "Last Updated" date, and the updated version will be effective as soon as it is accessible. We encourage you to review this Privacy Policy frequently to be informed of how we are protecting your information.</p>
-                </div>
-
-                <div class="terms-section">
-                    <h3>9. Contact Us</h3>
-                    <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
-                    <ul>
-                        <li><strong>Email:</strong> keshaventerprise.abd@gmail.com</li>
-                        <li><strong>Business:</strong> Keshav Enterprise</li>
-                    </ul>
-                </div>
-
-                <div class="terms-footer">
-                    <p><strong>Last Updated:</strong> May 28, 2026</p>
-                    <p>By using the kHomes App, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.</p>
+            <div class="terms-content" id="markdown-content">
+                <div style="text-align: center; padding: 2rem;">
+                    <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--primary-color);"></i>
+                    <p style="margin-top: 1rem; color: var(--text-secondary);">Loading privacy policy...</p>
                 </div>
             </div>
         </div>
@@ -350,5 +269,29 @@
     </footer>
 
     <script src="../script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('PRIVACY_POLICY.md')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Failed to load privacy policy');
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    document.getElementById('markdown-content').innerHTML = marked.parse(text);
+                })
+                .catch(error => {
+                    document.getElementById('markdown-content').innerHTML = `
+                        <div style="text-align: center; color: var(--text-secondary); padding: 2rem;">
+                            <h3>Error Loading Content</h3>
+                            <p>Sorry, we couldn't load the privacy policy. Please try again later.</p>
+                        </div>
+                    `;
+                    console.error('Error loading markdown:', error);
+                });
+        });
+    </script>
 </body>
 </html>
