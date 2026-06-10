@@ -36,6 +36,7 @@ Having accurate information about you permits us to provide you with a smooth, e
 We do not sell your personal data to any third parties. We do not use third-party analytics or crash reporting tools. We may share information we have collected about you in certain limited situations:
 
 - **Third-Party Service Providers:** We use Firebase Cloud Messaging strictly for the purpose of sending push notifications. We collect your device's FCM token and store it securely on our servers to enable this feature.
+- **Spam Prevention:** Our web visitor entry page uses Cloudflare Turnstile to prevent spam and abuse. Turnstile operates in the background to verify that visitors are real people without requiring interactive puzzles. The use of Turnstile is subject to the [Cloudflare Turnstile Privacy Addendum](https://www.cloudflare.com/en-gb/turnstile-privacy-policy/).
 - **External Mapping Applications:** The app may use your coordinates to open external mapping applications (like Google Maps) to display community locations.
 - **By Law or to Protect Rights:** If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others.
 
